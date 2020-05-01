@@ -6,3 +6,5 @@ venv/
 data/
 models/
 output/
+
+docker/*_debug.sh
