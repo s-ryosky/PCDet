@@ -24,4 +24,4 @@ docker run --gpus all -it --rm --shm-size 2g --name=pcdet \
     --env="QT_X11_NO_MITSHM=1" \
     --env="TZ=Asia/Tokyo" \
     --user="shigenaka" \
-    u16_cuda10.0_cudnn7_pytorch1.2.0:pcdet /bin/bash
+    u16_cuda10.0_cudnn7_pytorch1.1.0:pcdet /bin/bash
