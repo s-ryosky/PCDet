@@ -8,3 +8,4 @@ models/
 output/
 
 docker/*_debug.sh
+jobs/
