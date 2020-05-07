@@ -143,7 +143,7 @@ RUN cd ./cmake-3.14.4 && ./configure && make && make install && cd ..
 RUN rm -rf ./cmake-3.14.4 && rm -rf ./cmake-3.14.4.tar.gz
 RUN git clone --depth 99 --recursive https://github.com/traveller59/spconv.git
 RUN cd ./spconv && \
-    git checkout 5df97387208fd9f1b1aa01fb60228f9f99a8a766 && \
+    git checkout 8da6f967fb9a054d8870c3515b1b44eca2103634 && \
     python setup.py bdist_wheel && \
     pip install /opt/spconv/dist/spconv-1.0-cp36-cp36m-linux_x86_64.whl && \
     cd ..
