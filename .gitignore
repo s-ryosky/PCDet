@@ -4,8 +4,8 @@ venv/
 *.idea/
 *.so
 data/
-models/
-output/
+/models/
+/output/
 
-docker/*_debug.sh
-jobs/
+/docker/*_debug.sh
+/jobs/
